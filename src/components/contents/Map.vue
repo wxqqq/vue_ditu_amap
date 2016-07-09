@@ -20,15 +20,14 @@ export default {
             center: [116.39, 39.9]
         })
         console.log(map)
-         AMap.service(["AMap.PlaceSearch"], function() {
-        var placeSearch = new AMap.PlaceSearch({ //构造地点查询类
+         AMap.service(['AMap.PlaceSearch'], function () {
+        var placeSearch = new AMap.PlaceSearch({ // 构造地点查询类
             pageSize: 5,
             pageIndex: 1,
-            city: '010', //城市
+            city: '010', // 城市
             map: map,
             panel: 'panel'
         })
-        
         placeSearch.search('方恒')  //  关键字查询
     })
     }
