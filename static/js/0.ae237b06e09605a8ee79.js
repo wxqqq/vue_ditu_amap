@@ -1,0 +1,1 @@
+webpackJsonp([0,1],{20:function(o,e){o.exports=" <p> Welcome to your Vue.js app! </p> "},28:function(o,e,p){var t,s;s=p(20),o.exports=t||{},o.exports.__esModule&&(o.exports=o.exports["default"]),s&&(("function"==typeof o.exports?o.exports.options||(o.exports.options={}):o.exports).template=s)}});
